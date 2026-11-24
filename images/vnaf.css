@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100%;
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+:root {
+    --bg-image: url("./Flag_of_South_Vietnam.svg.webp");
+}
+
+body {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1160px;
+    min-width: 640px;
+    width: 95%;
+    min-height: 100vh;
+}
+
+body > header {
+    margin: 0;
+    padding: 0;
+}
+
+body > header > a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+body > header > a > img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+
+body > header > nav.navi {
+    margin: 0;
+    padding: 0;
+}
+
+body > header > nav.navi ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body > header > nav.navi li {
+   width: 33.333%;
+}
+
+nav.navi {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav.navi li {
+   display: block;
+   float: left;
+}
+
+nav.navi a {
+   display: block;
+   font-size: 1.1em;
+   text-align: center;
+   background-color: #BDBDBD;
+   color: black;
+   padding: 8px 0;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+/* Change the bg color of a link when it is hovered over */
+nav.navi a:hover, nav.navi a:active {
+    color: #BBDEFB;
+    background-color: #DA251D;
+}
+
+/* Padding */
+article {
+    padding: 20px 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    clear: both;
+}
+
+.a1linkgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.a1linkgrid a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 12px 1px;
+    text-decoration: none;
+    color: darkred;
+}
+
+.return {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+}
+
+figure {
+  text-align: center;
+  margin: 10px;
+}
+
+figcaption {
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.emblem {
+  width: 250px;
+  height: auto;
+}
+
+.tall {
+    height: 900px;
+    width: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
