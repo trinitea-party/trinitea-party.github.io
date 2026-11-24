@@ -1,2 +1,15 @@
+url: https://trinitea-party.github.io
+
+
 title: KLVNCH Archive
-description: Website for archiving photos of the Republic of Vietnam Air Force
+description: Website for archiving photos of the Republic of Vietnam Air Force combat aircraft
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/A-1H_514th_FS_(12).jpg
