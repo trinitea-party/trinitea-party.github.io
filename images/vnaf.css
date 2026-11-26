@@ -1,18 +1,28 @@
 @charset "utf-8";
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
-  min-height: 100%;
-  background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-@media (min-width: 769px) {
+@media (max-width: 769px) {
     html {
-        background-image: var(--bg-image);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
+        background-image: none;
+        background-color: white;
+    }
+
+    p, a {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .a1linkgrid {
+        grid-template-columns: 2fr;
     }
 }
 
