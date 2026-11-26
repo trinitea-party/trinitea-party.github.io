@@ -10,22 +10,6 @@ html {
     background-attachment: fixed;
 }
 
-@media (max-width: 769px) {
-    html {
-        background-image: none;
-        background-color: white;
-    }
-
-    p, a {
-        font-size: 18px;
-        line-height: 1.6;
-    }
-
-    .a1linkgrid {
-        grid-template-columns: 2fr;
-    }
-}
-
 :root {
     --bg-image: url("./Flag_of_South_Vietnam.svg.webp");
 }
@@ -175,4 +159,20 @@ h1 {
 
 h2 {
     font-size: 1.2em;
+}
+
+@media (max-width: 769px) {
+    html {
+        background-image: none;
+        background-color: white;
+    }
+
+    p, a {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .a1linkgrid {
+        grid-template-columns: 2fr;
+    }
 }
