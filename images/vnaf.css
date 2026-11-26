@@ -188,7 +188,7 @@ h2 {
     }
 
     .a1linkgrid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 
     .a1linkgrid a {
