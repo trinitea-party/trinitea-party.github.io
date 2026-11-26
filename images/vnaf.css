@@ -167,12 +167,38 @@ h2 {
         background-color: white;
     }
 
-    p, a {
+    body {
+        min-width: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    article {
+        padding: 20px 14px;
+    }
+
+    p {
         font-size: 18px;
         line-height: 1.6;
     }
 
+    article a, .a1linkgrid a {
+        font-size: 17px;
+        line-height: 1.4;
+    }
+
     .a1linkgrid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .a1linkgrid a {
+        padding: 12px 8px;
+        text-align: center;
+    }
+
+    .tall {
+        height: auto;
+        max-height: 75vh;
+        width: 100%;
     }
 }
